@@ -1,0 +1,246 @@
+@media screen and (max-width: 1200px) {
+    .promo{
+        &__logo{
+            width: 211px;
+        }
+    }
+    .carousel{
+        .container{
+            max-width: 784px;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .carousel{
+        .container{
+            max-width: 640px;
+        }
+        .tns-item {
+            img{
+                width: 550px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .header{
+        &__phone{
+            font-size: 15px;
+            margin: 0 23px
+        }
+        &__official span{
+            font-size: 16px;
+        }
+    }
+    .carousel{
+        .container{
+            max-width: 450px;
+        }
+        .tns-item {
+            img{
+                width: 400px;
+            }
+        }
+        .prev img{
+            width: 23px;
+            height: 34px;
+        }
+        .next img{
+            width: 23px;
+            height: 34px;
+        }
+    }
+    .header{
+        &__logo{
+            img{
+                width: 87%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 576px) {
+    .title{
+        font-size: 24px;
+    }
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &__logo{
+            width: 278px;
+            margin-bottom: 25px;
+        }
+        &__official{
+            margin-bottom: 25px;
+        }
+        &__contacts{
+            align-items: center;
+        }
+        &__phone{
+            font-size: 24px;
+        }
+        &__logo{
+            img{
+                width: 87%;
+            }
+        }
+        .button{
+            margin-top: 20px;
+        }
+    }
+    .promo{
+        &__wrapper{
+            margin-top: 41px;
+            align-items: center;
+        }
+        &__subheader{
+            margin-top: 7px;
+            font-size: 19px;
+        }
+        &__header{
+            font-size: 25px;
+        }
+        &__icon{
+            width: 114px;
+        }
+        &__icons{
+            width: 330px;
+        }
+    }
+    .suggestions{
+        padding: 36px 0px 55px 0px;
+        &__header{
+            font-size: 19px;
+        }
+        &__boxes{
+            flex-wrap: wrap;
+        }
+    }
+    .consultation{
+        padding: 33px 0 73px 0;
+    }
+    .carousel{
+        .container{
+            max-width: 400px;
+        }
+        .tns-item {
+            img{
+                width: 400px;
+            }
+        }
+        .prev img{
+            width: 23px;
+            height: 34px;
+        }
+        .next img{
+            width: 23px;
+            height: 34px;
+        }
+    }
+    .catalog{
+        &__tabs{
+            flex-wrap: wrap;
+        }
+        &__tab{
+            margin: 5px 5px;
+        }
+        &__content_active{
+            justify-content: center;
+        }
+    }
+    .customer{
+        &__img{
+            margin: 0 15px;
+        }
+    }
+}
+@media screen and (max-width: 360px) {
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &__logo{
+            width: 278px;
+            margin-bottom: 25px;
+        }
+        &__official{
+            margin-bottom: 25px;
+        }
+        &__contacts{
+            align-items: center;
+        }
+        &__phone{
+            font-size: 24px;
+        }
+        .button{
+            margin-top: 20px;
+        }
+    }
+    .promo{
+        &__wrapper{
+            margin-top: 41px;
+            align-items: center;
+        }
+        &__subheader{
+            margin-top: 7px;
+            font-size: 19px;
+        }
+        &__header{
+            font-size: 25px;
+        }
+        &__icon{
+            width: 114px;
+        }
+        &__icons{
+            width: 330px;
+        }
+    }
+    .carousel{
+        .container{
+            max-width: 350px;
+        }
+        .tns-item {
+            img{
+                width: 250px;
+            }
+        }
+        .prev img{
+            width: 17px;
+            height: 28px;
+        }
+        .next img{
+            width: 17px;
+            height: 28px;
+        }
+        .next{
+            right: 18px;
+        }
+        .prev{
+            left: 9px;
+        }
+    }
+    .customer{
+        &__img{
+            margin: 0 15px;
+        }
+        &__item{
+            display: block;
+            text-align: center;
+        }
+    }
+    .footer{
+        &__info{
+            width: 326px;
+        }
+    }
+    .modal{
+        width: 297px;
+        .feed__form{
+            width: 230px;
+        }
+    }
+}
+
+
+

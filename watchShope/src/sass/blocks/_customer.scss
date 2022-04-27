@@ -1,0 +1,14 @@
+.customer{
+    &__item{
+        display: flex;
+        margin-bottom: 40px;
+    }
+    &__img{
+        margin-right: 70px;
+    }
+    &__text{
+        &__work{
+            margin-bottom: 10px;
+        }
+    }
+}

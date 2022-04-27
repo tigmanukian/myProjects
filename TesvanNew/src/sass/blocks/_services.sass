@@ -1,0 +1,61 @@
+.services
+    &__boxes__text
+        .team__list
+            width: 540px 
+            &__row__text
+                margin-left: 20px
+    margin-top: 70px
+    &__header
+        text-align: center
+        p
+            margin-top: 35px
+            max-width: 670px
+            display: inline-block
+    &__box
+        display: flex
+        justify-content: space-between
+        align-items: center
+        flex-wrap: wrap
+        margin-top: 40px
+        &__jobs
+            .job
+                display: flex
+                flex-wrap: wrap
+
+                &__img
+                    margin-top: 40px
+                &__item
+                    padding-bottom: 50px
+                    width: 311px
+                    text-align: center
+                    box-shadow: 0 6px 38px -9px rgba(184, 184, 184, 1)
+                    border-radius: 15px
+                    transition: 0.5s
+                    margin: 40px 20px 30px 40px
+
+                &__itemtrans
+                    width: 311px
+                    text-align: center
+                    box-shadow: 0 6px 38px -9px rgba(184, 184, 184, 1)
+                    border-radius: 15px
+                    transition: 0.5s
+                    margin: 40px 40px 30px 40px
+                    &__transform
+                        background-color: #cceafe
+                        -ms-transform: rotate(8deg)
+                        transform: rotate(8deg)
+                        width: 311px
+                        border-radius: 15px
+                        padding-bottom: 50px
+                        .job__img
+                            transform: rotate(-7deg)
+                        .title
+                             transform: rotate(-7deg)
+                        p
+                            transform: rotate(-7deg)
+                &__item:hover
+                    background-color: #cceafe
+                p
+                    color: $text_color
+                    margin-bottom: 30px
+    

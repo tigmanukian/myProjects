@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: #424242;
+}
+nav{
+    display: flex !important;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+.logo-1{
+    width: 180px;
+}
+
+.container-box{
+    width: 1140px;
+    margin: 0px auto;
+    }
+
+.lang-menu{
+    margin-top: 10px;
+    position: relative;
+    font-size: 15px;
+}
+.selected-lang{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+    width: 78px;
+    color: #e9e3e3;
+}
+.selected-lang::before{
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://www.countryflags.io/am/flat/32.png); 
+}
+.lang-menu ul{
+    margin: 0px;
+    padding: 0px;
+    background-color:#e9e3e3 ;
+    border: 1px solid #e9e3e3;
+    box-shadow:  0px 1px 10px rgba(0,0 , 0, 0.2);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    top: px;
+    left: 0px;
+}
+.lang-menu ul li{
+    list-style: none;
+    display: flex;
+    justify-content:space-between ;
+
+}
+.lang-menu ul li a {
+    width: 135px;
+    display: block;
+    padding:5px 10px  ;
+}
+.lang-menu ul li a:hover {
+   background-color: silver;
+}
+.lang-menu ul li a::before {
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 5px;
+    width: 32px;
+    height: 32px;
+}
+.lang-menu ul{
+    z-index: 10;
+}
+.de::before{
+    background-image: url(https://www.countryflags.io/DE/flat/32.png);
+}
+.fr::before{
+    background-image: url(https://www.countryflags.io/us/flat/32.png);
+}
+.ge::before{
+    background-image: url(https://www.countryflags.io/fr/flat/32.png);
+}
+.ar::before{
+    background-image: url(https://www.countryflags.io/am/flat/32.png);
+}
+.lang-menu:hover ul{
+    display: block;
+}
+.search{
+    display: flex;
+    margin: 14px 0px;
+}
+.search input{
+    background-color: #f7efef;
+}
+.icon-hearth{
+    display: block;
+    margin-right: 20px;
+}
+.search .fas {
+    color: #e9e3e3;
+    margin-right: 17px;
+}
+.search .far{
+    color: #e9e3e3;
+    font-size: 24px;
+}
+.text{
+    display: block;
+}
+.line{
+    display: flex;
+    align-items:baseline;
+    margin: 45px auto;
+}
+.line-text{
+    font-size: 24px;
+    margin: -10px 30px;
+}
+.line-round{
+    width: 12px;
+    height: 12px;
+    background-color:#424242 ;
+    border-radius: 100%;
+    margin-bottom: 4px;
+}
+.line-width{
+    height: 1px;
+    width: 816px;
+    background-color:#424242 ;
+    margin: auto 0px;
+}
+.link{
+    background-color: #fffdfd;
+    padding-top: 10px;
+}
+
+
+
+.log{
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+ }
+ .log ul{
+     margin-right: 20px;
+ }
+ .log ul li{
+     display: inline-block;
+     max-width: 0px 5px;
+ }
+ .log ul li a{
+     color: #494747;
+     font-size: 17px;
+     text-transform: uppercase;
+     padding: 7px 13px;
+     border-radius: 3px;
+ }
+ li a.active,li a:hover{
+     background: #606364;
+     transition: .5s;
+ }
+ .img-row-second a.active,.img-row-second a:hover{
+    background: #606364;
+    transition: .5s;
+}
+.img-row-first a.active,.img-row-first a:hover{
+    background: #606364;
+    transition: .5s;
+}
+ .checkbtn{
+     color: #201e1e;
+     float: right;
+     cursor: pointer;
+     display: none;
+ }
+ #check{
+     display: none;
+ }
+ @media screen and (max-width: 576px) {
+     .checkbtn{
+         display: block;
+         float: none;
+     }
+     .log ul li a{
+        font-size: 16px;
+    }
+     ul{
+         position: absolute;
+         background:#eaf5f7 ;
+         left: -100%;
+         text-align: center;
+         transition: all .5s;
+         text-align: center;
+         z-index: 10;
+     }
+     label i{
+        margin-top: -3px;
+        margin-left: 20px;
+     }
+     .log ul li{
+         display: block;
+         margin: 30px 0px;
+         line-height:30px ;
+     }
+     .log ul li a{
+         font-size: 20px;
+     }
+     li a:hover,li a.active{
+         background: none;
+         color: #54d365;
+     }
+     #check:checked~ ul{
+         left:0 ;
+     }
+     .log{
+        text-align: start;
+     }
+ }
