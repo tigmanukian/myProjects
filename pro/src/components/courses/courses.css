@@ -1,0 +1,32 @@
+.card-item{
+	max-width: 300px;
+	text-align: center;
+	border: solid 2px
+	#CCCCCC ; 
+	border-radius: 10px;
+	margin: 1rem;
+	padding: 40px 20px;
+}
+
+.Courses-pro-box h5{
+	color: #F7931E;
+	margin-top: 3rem;
+}
+.Courses-pro-box h1{
+margin-top: 2rem;
+margin-bottom: 3rem;
+}
+.Courses-pro{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 3rem;
+	
+}
+.Courses-pro Button{
+	/* color:  #F7931E !important; */
+	
+	background-color: #F7931E !important;
+	border: #F7931E !important;
+	/* box-shadow: #F7931E !important; */ 
+}

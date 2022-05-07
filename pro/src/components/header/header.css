@@ -1,0 +1,41 @@
+
+.header-pro{
+	display: flex;
+	margin-top: 30px;
+}
+.header-box{
+	display: flex;
+	max-width: 1200px;
+	margin: 0px auto;
+	
+}
+.ss-logo{
+	width: 80%;
+	margin-left: 10px;
+}
+.login{
+	margin-right: 5px;
+}
+.header-pro button{
+	color:#F7931E !important ;
+	
+}
+.login-regester{
+	margin-left: 3rem;
+	text-align: center;
+}
+.logo-burger{
+	display: flex;
+}
+
+@media screen and   (max-width: 900px){
+	
+	.logo-burger{
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	.ss-logo{
+		
+		margin-left: 50px;
+	}
+}
