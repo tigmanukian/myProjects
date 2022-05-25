@@ -1,0 +1,29 @@
+.ss-our-services {
+    .card {
+        overflow: hidden;
+        transition: transform .3s;
+
+        .ss-card-description {
+            text-align: center;
+            color: #FFF;
+            top: 20%;
+        }
+
+        .card-bg-overlay {
+            background-color: rgba(0, 0, 0, .6)
+        }
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        .ss-service-list {
+            list-style-type: circle;
+            text-align: left;
+        }
+
+        .ss-service-description {
+            text-align: left;
+        }
+    }
+}

@@ -1,0 +1,236 @@
+{
+    "slides": [
+        {
+            "imageUrl": "slider/deva-darshan.jpg",
+            "header": "",
+            "description": ""
+        },
+        {
+            "imageUrl": "slider/jamar-penny.jpg",
+            "header": "",
+            "description": ""
+        },
+        {
+            "imageUrl": "slider/jimmy-desplanqu.jpg",
+            "header": "",
+            "description": ""
+        },
+        {
+            "imageUrl": "slider/maria-lupan.jpg",
+            "header": "",
+            "description": ""
+        },
+        {
+            "imageUrl": "slider/mika-baumeister.jpg",
+            "header": "",
+            "description": ""
+        },
+        {
+            "imageUrl": "slider/oleg-kuzmin.jpg",
+            "header": "",
+            "description": ""
+        },
+        {
+            "imageUrl": "slider/scott-blake.jpg",
+            "header": "",
+            "description": ""
+        },
+        {
+            "imageUrl": "slider/shane-mclendon.jpg",
+            "header": "",
+            "description": ""
+        }
+    ],
+    "ourServices": {
+        "header": "НАШИ СЕРВИСЫ",
+        "description": "Услуги по аренде строительной техники, и дорожные работы с гарантией",
+        "items": [
+            {
+                "imageUrl": "ourservices/tractors.png",
+                "header": "Укладка Асфальта",
+                "description": "Широкий спектр услуг по укладке асфальта",
+                "serviceList": [
+                    "Асфальтирование дорог и территорий",
+                    "Укладка асфальтовой крошки",
+                    "Благоустройство территорий"
+                ],
+                "detailUrl": "/services/asphalt"
+            },
+            {
+                "imageUrl": "ourservices/wioletta-plonkowska.png",
+                "header": "Аренда Спецтехники",
+                "description": "Аренда дорожно-строительной техники",
+                "serviceList": [
+                    "Асфальтоукладчики",
+                    "Виброплиты",
+                    "Катки"
+                ],
+                "detailUrl": "#"
+            },
+            {
+                "imageUrl": "ourservices/john-kakuk.png",
+                "header": "Консультация",
+                "description": "Консультация специалистов",
+                "serviceList": [
+                    "Оценка работы",
+                    "Составление сметы",
+                    "Помощь специалистов"
+                ],
+                "detailUrl": "#"
+            }
+        ]
+    },
+    "whyChooseUs": {
+        "header": "ПОЧЕМУ МЫ",
+        "description": "Качество и гарантия по конкурентным ценам",
+        "items": [
+            {
+                "url": "icons/award.png",
+                "title": "КАЧЕСТВО",
+                "text": "Укладка производится с использованием современных методов повышения качества дорожного полотна, при этом с полным соблюдением технологии и нормативных требований.",
+                "detailUrl": "#"
+            },
+            {
+                "url": "icons/shild.png",
+                "title": "ГАРАНТИЯ",
+                "text": "На восстановление дорог, равно как и на всякую иную услугу, действует гарантийное обеспечение согласно ГОСТу",
+                "detailUrl": "#"
+            },
+            {
+                "url": "icons/price_r.png",
+                "title": "ЦЕНА",
+                "text": "Не смотря на высокое качество мы предлагаем лучшие цены на рынке. Наши специалисты оперативно посчитают точную стоимость после получения ТЗ по почте или по телефону.",
+                "detailUrl": "#"
+            }
+        ]
+    },
+    "statistics": {
+        "roadBuilt": {
+            "lengthKm": 1500,
+            "label": "ПОСТРОЕНО ДОРОГ"
+        },
+        "successProject": {
+            "count": 150,
+            "label": "СДАННЫХ ПРОЕКТОВ"
+        },
+        "happyClient": {
+            "count": 50,
+            "label": "ДОВОЛЬНЫХ КЛИЕНТОВ"
+        },
+        "employees": {
+            "count": 20,
+            "label": "СОТРУДНИКОВ"
+        }
+    },
+    "latestProjects": {
+        "header": "ПОСЛЕДНИЕ ПРОЕКТЫ",
+        "description": "Качество и сроки наше конкурентное преимущество",
+        "images": [
+            {
+                "originalUrl": "latestprojects/1_proj.jpg",
+                "thumbnailUrl": "latestprojects/1_proj_t.jpg",
+                "width": 1600,
+                "height": 1067
+            },
+            {
+                "originalUrl": "latestprojects/2_proj.jpg",
+                "thumbnailUrl": "latestprojects/2_proj_t.jpg",
+                "width": 1600,
+                "height": 1199
+            },
+            {
+                "originalUrl": "latestprojects/3_proj.jpg",
+                "thumbnailUrl": "latestprojects/3_proj_t.jpg",
+                "width": 1600,
+                "height": 1200
+            },
+            {
+                "originalUrl": "latestprojects/4_proj.jpg",
+                "thumbnailUrl": "latestprojects/4_proj_t.jpg",
+                "width": 1600,
+                "height": 1199
+            },
+            {
+                "originalUrl": "latestprojects/5_proj.jpg",
+                "thumbnailUrl": "latestprojects/5_proj_t.jpg",
+                "width": 1600,
+                "height": 1067
+            },
+            {
+                "originalUrl": "latestprojects/6_proj.jpg",
+                "thumbnailUrl": "latestprojects/6_proj_t.jpg",
+                "width": 1600,
+                "height": 982
+            },
+            {
+                "originalUrl": "latestprojects/7_proj.jpg",
+                "thumbnailUrl": "latestprojects/7_proj_t.jpg",
+                "width": 1600,
+                "height": 1110
+            },
+            {
+                "originalUrl": "latestprojects/8_proj.jpg",
+                "thumbnailUrl": "latestprojects/8_proj_t.jpg",
+                "width": 1600,
+                "height": 1165
+            },
+            {
+                "originalUrl": "latestprojects/9_proj.jpg",
+                "thumbnailUrl": "latestprojects/9_proj_t.jpg",
+                "width": 1600,
+                "height": 1060
+            },
+            {
+                "originalUrl": "latestprojects/10_proj.jpg",
+                "thumbnailUrl": "latestprojects/10_proj_t.jpg",
+                "width": 1600,
+                "height": 1200
+            }
+        ]
+    },
+    "aboutCompany": {
+        "header": "О КОМПАНИИ",
+        "description": "На рынке начиная с 2019 года",
+        "imageUrl": "aboutcompany/aboutCompanyCover.jpg",
+        "signatureUrl": "aboutcompany/signature.png",
+        "textHeader": "Письмо от основателя компании",
+        "text": "Несколько основных производителей асфальтоукладчиков выпускают новые модели, обеспечивающие повышенную производительность и возможности, — пишет Майк Вуф. Темпы развития сектора оборудования для укладки асфальта высоки, и на рынок выходит широкий спектр новых машин. Все основные производители представляют новые модели на 2017 год, а также продолжаются ключевые бизнес-разработки. Одним из наиболее заметных деловых шагов в секторе дорожной техники является соглашение между "
+    },
+    "clientSay": {
+        "header": "Что говорят наши клиенты",
+        "description": "Довольные клиенты наша гордость",
+        "clientSays": [
+            {
+                "person": "Vladimer Vlad ",
+                "text": "Укладка производится с использованием современных методов повышения качества дорожного полотна, при этом с полным соблюдением технологии и нормативных требований."
+            },
+            {
+                "person": "Vladimer Vlad ",
+                "text": "Укладка производится с использованием современных методов повышения качества дорожного полотна, при этом с полным соблюдением технологии и нормативных требований."
+            },
+            {
+                "person": "Vladimer Vlad ",
+                "text": "Укладка производится с использованием современных методов повышения качества дорожного полотна, при этом с полным соблюдением технологии и нормативных требований."
+            }
+        ]
+    },
+    "clientLogo": {
+        "logos": [
+            {
+                "url":"icons/w1.png"
+            },
+            {
+                "url":"icons/w2.png"
+            },
+            {
+                "url":"icons/w3.png"
+            },
+            {
+                "url":"icons/w4.png"
+            },
+            {
+                "url":"icons/w5.png"
+            }
+        ]
+    }
+}

@@ -1,0 +1,90 @@
+@import '../colors.scss';
+
+.ss-page-section {
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+
+    &.bg-alternate {
+        background-color: #f5f6f6;
+    }
+
+    &.bg-decoration {
+
+        &:before,
+        &:after {
+            content: "";
+            position: absolute;
+            left: 0px;
+            width: 100%;
+            height: 50px;
+            opacity: 0.4;
+        }
+
+        &:before {
+            background-image: url("../../../public/background/scale-top.png");
+            background-position: top;
+            background-repeat: repeat-x;
+            top: 0px;
+        }
+
+        &:after {
+            background-image: url("../../../public/background/scale-bottom.png");
+            background-position: bottom;
+            background-repeat: repeat-x;
+            bottom: 0px;
+        }
+    }
+}
+
+.ss-page-section {
+    .wt-separator-outer {
+        overflow: hidden;
+    }
+
+    .wt-separator.style-square {
+        width: 10px;
+        height: 10px;
+        background-color: transparent;
+        border-width: 3px;
+        border-style: solid;
+        border-color: #2d3239;
+    }
+
+    .wt-separator {
+        display: inline-block;
+        height: 3px;
+        width: 50px;
+        position: relative;
+    }
+
+    .wt-separator.style-square .separator-left,
+    .wt-separator.style-square .separator-right {
+        height: 3px;
+        background-color: $secondary-color;
+    }
+
+    .wt-separator .separator-left {
+        left: -80px;
+    }
+
+    .wt-separator .separator-left,
+    .wt-separator .separator-right {
+        position: absolute;
+        top: 50%;
+        width: 70px;
+        height: 2px;
+        margin-top: -1px;
+    }
+
+    .wt-separator.style-square .separator-left,
+    .wt-separator.style-square .separator-right {
+        height: 3px;
+    }
+
+    .wt-separator .separator-right {
+        right: -80px;
+    }
+
+}

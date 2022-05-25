@@ -1,0 +1,22 @@
+@import "../../../common/colors.scss";
+
+.ss-clientsay-section {
+    background-image: url("../../../../public/clientsay/quote.png");
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #f5f6f6;
+
+    .card {
+        border-left: 6px solid $secondary-color;
+    }
+
+    .carousel-indicators {
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+
+        button {
+            background-color: $secondary-color;
+        }
+    }
+}
