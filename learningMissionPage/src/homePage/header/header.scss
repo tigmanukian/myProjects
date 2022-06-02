@@ -1,0 +1,70 @@
+@import "../../style/colors.scss";
+
+.header-pro {
+  margin-top: 30px;
+}
+.head-logo {
+  margin-right: 20%;
+  width: 250px;
+  display: none;
+}
+
+.login {
+  margin-left: 80px !important;
+}
+.Donate {
+  border: solid $main-color !important;
+  border-radius: 5px;
+  color: darkgray;
+  
+}
+.Donate:hover {
+  background-color: $main-color;
+  color: #ffffff !important;
+  border-radius: 5px !important;
+}
+.logOut {
+  background-color: $main-color;
+  color: #ffffff !important;
+  border-radius: 5px !important;
+}
+
+.nav-btn {
+  text-decoration: none !important;
+  color: darkgray;
+  margin: 2px;
+}
+.nav-btn:hover {
+  color: $main-color !important;
+}
+@media screen and (max-width: 1140px) {
+  .header-pro {
+    display: flex;
+    justify-content: space-between;
+  }
+  .head-logo {
+    display: block;
+  }
+  .login {
+    margin-left: 0px !important;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .logo-burger {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .logo {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo {
+	width: 78%;
+    margin-left: 41px;
+  }
+  .head-logo {
+    margin-right: 10%;
+  }
+}

@@ -1,0 +1,103 @@
+@import "../../style/colors.scss";
+
+.AboutUs-pro {
+  margin-top: 50px;
+}
+.vidio-text button {
+  width: 200px;
+  color: #ffffff;
+  background: $main-color;
+}
+
+.AboutUs-pro h1 {
+  max-width: 712px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  margin-bottom: 30px;
+}
+.AboutUs-title {
+  color: $main-color;
+}
+.vidio-text {
+  text-align: center;
+  & .vidio-slady-text{
+	  margin-left: 30px;
+	  & p{
+		text-align: left;
+	  }
+  }
+}
+.vidio-btn{
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+	& button{
+		width: 280px;
+		padding: 15px;
+		border: solid $main-color;
+		border-radius: 5px;
+		background: $main-color;
+		color: #ffffff;
+	}
+}
+.AboutUs-video-box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media screen and   (max-width:1200px){
+	.AboutUs-video-box{
+		
+		flex-wrap: wrap;
+	}
+	.vidio-text{
+		margin-top: 20px;
+		& .vidio-slady-text{
+			margin-left: 7px;
+			
+		}
+	
+	}
+	
+}
+
+@media screen and   (max-width:800px){
+	.vidio-slady{
+		& .a{
+			width: 400px !important;
+			height: 300px !important;
+		}
+		
+	}
+	.AboutUs-pro {
+		& h1{
+			font-size: 20px;
+		}
+	  }
+	
+}
+@media screen and   (max-width:500px){
+	.vidio-slady{
+		& .a{
+			width: 300px !important;
+			height: 200px !important;
+		}	
+	}
+	.vidio-text{
+		margin-top: 20px;
+		font-size: 15px;
+	}
+	.AboutUs-pro {
+		& h1{
+			font-size: 17px;
+		}
+	  }
+	  .vidio-btn button{
+		width: 210px;
+		padding: 10px;
+	
+	  }
+}

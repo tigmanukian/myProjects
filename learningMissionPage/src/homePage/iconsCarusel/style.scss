@@ -1,0 +1,36 @@
+@import "../../style/colors.scss";
+
+.iconCarusel{
+	&  img{
+		width: 150px;
+	}
+	& .carusel{
+		display: flex;
+		align-items: center;
+		height: 200px;
+	}
+}
+@media screen and   (max-width: 1000px){
+	.iconCarusel{
+		&  img{
+			width: 120px;	
+		}
+		& .carusel{
+			display: flex;
+			align-items: center;
+			height: 150px;
+		}
+	}
+}
+@media screen and   (max-width: 700px){
+	.iconCarusel{
+		&  img{
+			width: 100px;	
+		}
+		& .carusel{
+			display: flex;
+			align-items: center;
+			height: 100px;
+		}
+	}
+}

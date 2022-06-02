@@ -1,0 +1,32 @@
+@import "../../style/colors.scss";
+
+.info-wrap-section span{
+	color: $main-color;
+}
+.info-wrap-section{
+	display: flex;
+	margin-top: 50px;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.info-wrap-section img{
+	width: 100%;
+}
+.info-text{
+	width: 40rem;
+	margin-right: 3rem;
+}
+.info-text button{
+	width: 200px;
+	color: #ffffff;
+	background: $main-color;
+}
+@media screen and   (max-width: 900px){
+	.info-wrap-section{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.info-wrap-section img{
+		margin-top: 3rem;
+	}
+}

@@ -1,0 +1,233 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    line-height: 1;
+}
+
+b{
+    color: red;
+}
+
+body {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #6C6A6A;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+.gradient-custom-4 {
+    background-color: #F7931E;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card_register h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #F7931E;
+}
+
+.card_register h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #6C6A6A;
+}
+
+.card_register h5 {
+    color: #BDBDBD;
+    font-size: 12px;
+}
+
+.card_register label {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #6C6A6A;
+}
+
+.card_register input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #AFADAD;
+}
+
+.card_register input:focus {
+    border: 1px solid #0D0701;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.card_register_info h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #F7931E;
+}
+
+.card_register_info h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #6C6A6A;
+}
+
+.card_register_info h5 {
+    color: #BDBDBD;
+    font-size: 12px;
+}
+
+.card_register_info label {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #6C6A6A;
+}
+
+.card_register_info input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #AFADAD;
+}
+
+.card_register_info input:focus {
+    border: 1px solid #0D0701;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.card_register_info input[type='number'] {
+    width: 70px;
+    margin-right: 10px;
+    border: 0.82991px solid #6C6A6A;
+    box-sizing: border-box;
+    border-radius: 8.2991px;
+    height: 45px;
+    text-align: center;
+}
+
+.card_register_info input[type='number']::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #AFADAD;
+}
+
+.required-field::after {
+    content: "*";
+    color: red;
+}
+
+.date_label {
+    display: block;
+}
+
+.card_register h3 {
+    color: #0D0701;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.card_register a {
+    color: #F7931E;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.card_register p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    /* or 146% */
+
+    text-align: center;
+
+    /* Black */
+
+    color: #0D0701;
+
+    opacity: 0.99;
+}
+
+.close {
+    top: 5px;
+    right: 15px;
+    position: absolute;
+    z-index: 100;
+}
+
+.first_group{
+    margin-right: 10px;
+}
+
+.validationcl{
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+}
+
+/* //////////////////////////////////////////////////////////////////// register*/
+
+.register-warning{
+    text-align: center;
+}
+.register-warning h3{
+    color:#F7931E;
+    font-size: 19px;
+}
+.register-warning-box{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.register-warning-text p{
+    font-size: 16px;
+}
+
+@media (max-width: 785px) {
+    .flex_wrap_text{
+        display: block !important;
+    }
+    .register-warning h3{
+        color:#F7931E;
+        font-size: 15px;
+    }
+    .register-warning-text p{
+        font-size: 12px;
+    }
+}
